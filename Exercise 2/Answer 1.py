@@ -10,7 +10,7 @@ class ProgrammingLanguageCourse(ABC):
     def AddDay(self,Day):
         return self._DayList.append(Day)
     
-    def Show(self):
+    def _Show(self):
         return f"{self._StartDate}\t{self._EndDate}\t{self._CourseLevel}\t{self._CourseTeacher}"
 #--------------------------------------------------------
 class Python(ProgrammingLanguageCourse):
@@ -20,7 +20,7 @@ class Python(ProgrammingLanguageCourse):
         self.__CourseFee=CourseFee
 
     def ShowPython(self):
-        return f"Python : {self.__CourseCode}\t{self.Show()}\t{self.__CourseFee}\n{self._DayList}"
+        return f"Python : {self.__CourseCode}\t{self._Show()}\t{self.__CourseFee}\n{self._DayList}"
         
 #--------------------------------------------------------
 class Java(ProgrammingLanguageCourse):
@@ -30,7 +30,7 @@ class Java(ProgrammingLanguageCourse):
         self.__CourseFee=CourseFee
       
     def ShowJava(self):
-        return f"Java : {self.__CourseCode}\t{self.Show()}\t{self.__CourseFee}\n{self._DayList}"
+        return f"Java : {self.__CourseCode}\t{self._Show()}\t{self.__CourseFee}\n{self._DayList}"
 #--------------------------------------------------------
 class PHP(ProgrammingLanguageCourse):
     def __init__(self, StartDate, EndDate, CourseLevel, CourseTeacher, CourseCode, CourseFee):
@@ -39,7 +39,7 @@ class PHP(ProgrammingLanguageCourse):
         self.__CourseFee=CourseFee
 
     def ShowPHP(self):
-        return f"PHP : {self.__CourseCode}\t{self.Show()}\t{self.__CourseFee}\n{self._DayList}"
+        return f"PHP : {self.__CourseCode}\t{self._Show()}\t{self.__CourseFee}\n{self._DayList}"
 #--------------------------------------------------------
 P1=Python('1403/05/01','1403/10/30','Basic Level','Mr Ahmadi',10,3500000)  
 P2=Python('1404/05/01','1404/10/30','Advanced Level','Mr Ahmadi',11,5000000)

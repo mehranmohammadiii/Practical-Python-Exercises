@@ -1,17 +1,11 @@
-from itertools import chain,compress,combinations
-from operator import itemgetter
-expert_List1 = [("Ali","Ahmadi","M",35), ("Sima","Sadri","C",39),
-("Ahmad","Moradi","M",30), ("Ftemeh","Majd","C",29), ("Sara","Biglar","IE",27),
-("Reza","Rahnama","EE",45)]
-
-expert_List2 = [("Mina","Gohari","EE",40), ("Iman","Shams","M",26),
-("Farzad","Yeganeh","M",41), ("Ali","Imani","C",33), ("Aref","Alameh","M",32),
-("Narges","Sohrabi","C",35)]
-
-chain1=list(chain.from_iterable([expert_List1,expert_List2]))
-print(sorted(chain1,key=itemgetter(2)))
-print()
-name_M=list(compress(sorted(chain1,key=itemgetter(2)),[0,0,0,0,0,0,0,1,1,1,1,1]))
-print(name_M)
-print()
-print(list(combinations(name_M,3)))
+import collections
+Mobile = collections.namedtuple("Mobile","Brand Model Price Colors")
+m1 = Mobile("Samsung","xxx", 6000000,["red","black"])
+m2 = Mobile("Apple","xxx", 20000000,["blue","black","red"])
+m3 = Mobile("Nokia","xxx", 8000000,["red","black","white","pink"])
+m4 = Mobile("Samsung","xxx", 12000000,["red","white"])
+mobile_List = []
+for mobile in (m1,m2,m3,m4):
+    mobile_List. append(mobile._asdict())
+for mobile in mobile_List:
+    print(mobile)

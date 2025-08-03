@@ -1,0 +1,26 @@
+[
+    {
+        "_Product__productCode": 100,
+        "_Product__productName": "pofak",
+        "_Product__price": 10000,
+        "_Product__productGroupName": "tanagholat"
+    },
+    {
+        "_Product__productCode": 101,
+        "_Product__productName": "chips",
+        "_Product__price": 150000,
+        "_Product__productGroupName": "tanagholat"
+    },
+    {
+        "_Product__productCode": 102,
+        "_Product__productName": "tomato",
+        "_Product__price": 75000,
+        "_Product__productGroupName": "tanagholat"
+    },
+    {
+        "_Product__productCode": 103,
+        "_Product__productName": "banana",
+        "_Product__price": 150000,
+        "_Product__productGroupName": "tanagholat"
+    }
+]

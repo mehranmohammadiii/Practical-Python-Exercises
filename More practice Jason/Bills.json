@@ -1,0 +1,40 @@
+[
+    {
+        "_Bill__billCode": 1,
+        "_Bill__customerCode": 1,
+        "_Bill__billDate": "2025-08-03 20:58:45.491468",
+        "_Bill__billDetails": [
+            {
+                "_BillDetails__billDetailCode": 1,
+                "_BillDetails__billCode": 1,
+                "_BillDetails__productCode": 100,
+                "_BillDetails__productCount": 5
+            },
+            {
+                "_BillDetails__billDetailCode": 2,
+                "_BillDetails__billCode": 1,
+                "_BillDetails__productCode": 101,
+                "_BillDetails__productCount": 8
+            }
+        ]
+    },
+    {
+        "_Bill__billCode": 2,
+        "_Bill__customerCode": 2,
+        "_Bill__billDate": "2025-08-03 20:58:45.491468",
+        "_Bill__billDetails": [
+            {
+                "_BillDetails__billDetailCode": 3,
+                "_BillDetails__billCode": 2,
+                "_BillDetails__productCode": 103,
+                "_BillDetails__productCount": 2
+            },
+            {
+                "_BillDetails__billDetailCode": 4,
+                "_BillDetails__billCode": 2,
+                "_BillDetails__productCode": 104,
+                "_BillDetails__productCount": 6
+            }
+        ]
+    }
+]

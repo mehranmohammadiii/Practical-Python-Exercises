@@ -1,0 +1,14 @@
+[
+    {
+        "_Customer__customercode": 1,
+        "_Customer__name": "Mehran",
+        "_Customer__family": "Mohammadi",
+        "_Customer__mobileNumber": "092000000"
+    },
+    {
+        "_Customer__customercode": 2,
+        "_Customer__name": "Ali",
+        "_Customer__family": "Ahmadi",
+        "_Customer__mobileNumber": "092000000"
+    }
+]

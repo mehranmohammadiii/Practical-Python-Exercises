@@ -1,0 +1,23 @@
+[
+    {
+        "_Motarjem__IsActiv": true,
+        "_Motarjem__Code": 1,
+        "_Motarjem__Name": "Ali",
+        "_Motarjem__Family": "Ahamdi",
+        "_Motarjem__Phone": "0915121211",
+        "_Motarjem__LanguagesList": [
+            "EN",
+            "UA"
+        ]
+    },
+    {
+        "_Motarjem__IsActiv": false,
+        "_Motarjem__Code": 2,
+        "_Motarjem__Name": "Mehran",
+        "_Motarjem__Family": "Mohammadi",
+        "_Motarjem__Phone": "0915121211",
+        "_Motarjem__LanguagesList": [
+            "EN"
+        ]
+    }
+]

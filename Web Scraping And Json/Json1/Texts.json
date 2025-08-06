@@ -1,0 +1,32 @@
+[
+    {
+        "_Text__Status": "TextStatus.unselected",
+        "_Text__code": 1,
+        "_Text__Language": "EN",
+        "_Text__NumberOfDays": 10,
+        "_Text__RegisterDate": "2025-08-04 10:42:25.161092",
+        "_PlainText__NormalWordCount": 80,
+        "_PlainText__LongWordCount": 50,
+        "_Name": "PlainText"
+    },
+    {
+        "_Text__Status": "TextStatus.unselected",
+        "_Text__code": 2,
+        "_Text__Language": "EN",
+        "_Text__NumberOfDays": 8,
+        "_Text__RegisterDate": "2025-08-04 10:43:29.386691",
+        "_ScientText__NumberScienWords": 30,
+        "_ScientText__GeneralWordCount": 60,
+        "_Name": "ScientText"
+    },
+    {
+        "_Text__Status": "TextStatus.unselected",
+        "_Text__code": 3,
+        "_Text__Language": "EN",
+        "_Text__NumberOfDays": 5,
+        "_Text__RegisterDate": "2025-08-04 10:43:29.386691",
+        "_PlainText__NormalWordCount": 40,
+        "_PlainText__LongWordCount": 20,
+        "_Name": "PlainText"
+    }
+]
